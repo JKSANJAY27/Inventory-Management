@@ -3,10 +3,10 @@ const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const userRoute = require("./routes/userRoute");
-const productRoute = require("./routes/productRoute");
-const contactRoute = require("./routes/contactRoute");
-const errorHandler = require("./middleWare/errorMiddleware");
+const userRoute = require("./backend/routes/userRoute");
+const productRoute = require("./backend/routes/productRoute");
+const contactRoute = require("./backend/routes/contactRoute");
+const errorHandler = require("./backend/middleWare/errorMiddleware");
 const cookieParser = require("cookie-parser");
 const path = require("path");
 
